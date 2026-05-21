@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81e2a304-7a3e-4f30-84ba-18716ae94aa4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ML Lab.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ML Lab/ML_Viva_QA.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python Lab/Complete-Python.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python Lab/Merge_Selection_Insertion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python Lab/Python theory.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python Lab/Python_Lab_Viva_QA.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python Lab/Python_Viva_Complete_Guide.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python Lab/Python_Viva_Questions.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python Lab/Sum_of_prime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python Lab/countdown_to_Zero.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python Lab/fibonacci_sequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python Lab/list_tuple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python Lab/loop_over_Sequence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MAD_Lab/p9_swipe_gaming_app/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MAD_Lab/p9_swipe_gaming_app/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ML Lab/P10_Candidate_Elimination.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../ML Lab/P10_Candidate_Elimination.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ML Lab/P11_Naive_Bayes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../ML Lab/P11_Naive_Bayes.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ML Lab/P12_Decision_tree.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../ML Lab/P12_Decision_tree.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ML Lab/P13_KNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../ML Lab/P13_KNN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ML Lab/P14_ANN_Classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../ML Lab/P14_ANN_Classification.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ML Lab/P1_basics.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../ML Lab/P1_basics.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ML Lab/P2_NumPy_Lib.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../ML Lab/P2_NumPy_Lib.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ML Lab/P3_Pandas_Lib.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../ML Lab/P3_Pandas_Lib.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ML Lab/P4_Matplotlib_Lib.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../ML Lab/P4_Matplotlib_Lib.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ML Lab/P5_Scikit_learn_lib.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../ML Lab/P5_Scikit_learn_lib.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ML Lab/P6_Upload_File.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../ML Lab/P6_Upload_File.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ML Lab/P7_Find_S_Algo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../ML Lab/P7_Find_S_Algo.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ML Lab/P8_Linear_Regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../ML Lab/P8_Linear_Regression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ML Lab/P9_Logistic_Regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../ML Lab/P9_Logistic_Regression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python Lab/P10_Task1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Python Lab/P10_Task1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python Lab/P1_Exp1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Python Lab/P1_Exp1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python Lab/P2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Python Lab/P2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python Lab/P4_test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Python Lab/P4_test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python Lab/P5_Exp2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Python Lab/P5_Exp2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python Lab/P6_Exp3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Python Lab/P6_Exp3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python Lab/P8_function.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Python Lab/P8_function.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="3AZBLKuqBnOZvsmihx1zsYnD5qp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.main.executor&quot;: &quot;Profiler&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-b63d5a1f7c97-b61e75351b1f-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.22158.340" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81e2a304-7a3e-4f30-84ba-18716ae94aa4" name="Changes" comment="" />
+      <created>1772790155248</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772790155248</updated>
+      <workItem from="1772790156263" duration="292000" />
+      <workItem from="1772790552474" duration="243000" />
+      <workItem from="1779252553272" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python$main.coverage" NAME="main Coverage Results" MODIFIED="1772790679502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

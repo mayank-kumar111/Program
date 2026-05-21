@@ -1,0 +1,142 @@
+import java.awt.EventQueue;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+import javax.swing.SwingConstants;
+import javax.swing.border.EmptyBorder;
+
+public class LoginForm extends JFrame {
+
+	private static final long serialVersionUID = 1L;
+	private JPanel contentPane;
+	private JTextField textField_UN;
+	private JPasswordField passwordField;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					LoginForm frame = new LoginForm();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public LoginForm() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+		contentPane = new JPanel();
+		contentPane.setLayout(null);
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+
+		setContentPane(contentPane);
+		
+		JLabel lblNewLabel = new JLabel("User Login");
+		lblNewLabel.setBounds(156, 11, 123, 32);
+		lblNewLabel.setFont(new Font("Arial", Font.PLAIN, 24)); // 24 is the font size
+
+        // Center align the label
+		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
+
+		contentPane.add(lblNewLabel);
+		
+		JLabel lblNewLabel_1 = new JLabel("UserName:");
+		lblNewLabel_1.setFont(new Font("Tahoma", Font.PLAIN, 18));
+		lblNewLabel_1.setBounds(27, 68, 108, 26);
+		contentPane.add(lblNewLabel_1);
+		
+		JLabel lblNewLabel_1_1 = new JLabel("Password:");
+		lblNewLabel_1_1.setFont(new Font("Tahoma", Font.PLAIN, 18));
+		lblNewLabel_1_1.setBounds(27, 122, 108, 26);
+		contentPane.add(lblNewLabel_1_1);
+		
+		textField_UN = new JTextField();
+		textField_UN.setBounds(138, 68, 213, 32);
+		contentPane.add(textField_UN);
+		textField_UN.setColumns(10);
+		
+		JButton btnNewButton = new JButton("Login");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				   String inputUsername = textField_UN.getText();
+			        String inputPassword = new String(passwordField.getPassword());
+
+			        // Perform login check using JDBC
+			        if (validateCredentials(inputUsername, inputPassword)) {
+			        	JOptionPane.showMessageDialog(btnNewButton,
+	                            "Welcome, " + inputUsername);
+			           
+			        } else {
+			            JOptionPane.showMessageDialog(btnNewButton,
+			            		"Invalid username or password.");
+			        }
+				
+			}
+		});
+		btnNewButton.setFont(new Font("Tahoma", Font.PLAIN, 18));
+		btnNewButton.setBounds(168, 195, 96, 32);
+		contentPane.add(btnNewButton);
+		
+		passwordField = new JPasswordField();
+		passwordField.setBounds(138, 122, 213, 32);
+		contentPane.add(passwordField);
+	}
+	
+	
+	
+	 private boolean validateCredentials(String username, String password) {
+	        boolean isValid = false;
+
+	        try {
+	            // Load MySQL JDBC driver
+	            //Class.forName("com.mysql.cj.jdbc.Driver");
+
+	            // Establish the connection to the database
+	            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb1", "root", "root");
+
+	            // SQL query to check if the username and password are correct
+	            String sql = "SELECT * FROM testtable1 WHERE name = ? AND password = ?";
+	            PreparedStatement statement = connection.prepareStatement(sql);
+	            statement.setString(1, username);
+	            statement.setString(2, password);
+
+	            // Execute the query
+	            ResultSet resultSet = statement.executeQuery();
+
+	            // If a match is found, login is successful
+	            if (resultSet.next()) {
+	                isValid = true;
+	            }
+
+	            // Close the database connection
+	            connection.close();
+	        } catch (Exception ex) {
+	            ex.printStackTrace();
+	        }
+
+	        return isValid;
+	    }
+
+}
